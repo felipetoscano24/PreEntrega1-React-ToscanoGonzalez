@@ -1,4 +1,19 @@
-h1{
-    text-align: center;
-    margin: 50px;
+
+@import url('https://fonts.googleapis.com/css2?family=Black+And+White+Picture&family=Bowlby+One+SC&family=Caprasimo&family=Francois+One&family=Nosifer&family=Rampart+One&family=Titan+One&display=swap');
+
+
+h1 {
+  text-align: center;
+  margin: 50px;
+  font-family: "Rampart One", sans-serif;
+  font-size: 55px;
+  color: rgb(239, 160, 179);
 }
+
+/*
+font-family: "Caprasimo", serif;
+font-family: "Bowlby One SC", sans-serif;
+font-family: "Rampart One", sans-serif;
+font-family: "Titan One", sans-serif;
+font-family: "Nosifer", sans-serif;
+*/

@@ -1,11 +1,11 @@
-import "./banner.css";
+import "./banner.css"
 
 const Banner = () => {
   return (
     <div>
-        <img className="banner" src="./img/banner.png" width={1500} alt="banner" />
+      <img className="banner" src="./img/banner.png" alt="banner"/>
     </div>
-  )
-}
+  );
+};
 
 export default Banner
