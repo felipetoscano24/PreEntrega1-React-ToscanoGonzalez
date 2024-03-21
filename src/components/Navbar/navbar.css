@@ -3,7 +3,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 170px;
+  height: 25vh;
 }
 
 .lista {
@@ -11,27 +11,26 @@
   list-style: none;
   align-items: center;
   color: rgb(255, 208, 0);
-  font-size: 30px;
+  font-size: 3.2vh;
   font-family: "Bowlby One SC", sans-serif;
 }
 
 .lista li {
-  padding-right: 100px;
+  padding-right: 10vh;
 }
 
 .logo-navbar {
-  width: 320px;
-  margin-left: 30px;
+  width: 22vw;
+  margin-left: 3vw;
 }
 
 .cart {
-  width: 80px;
-  height: 65px;
+  height: 10vh;
 }
 
 .numerito {
   color: rgb(255, 208, 0);
-  font-size: 25px;
+  font-size: 4vh;
   font-weight: bolder;
-  margin-right: 30px;
+  margin-right: 3vw;
 }

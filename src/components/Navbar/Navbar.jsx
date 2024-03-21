@@ -9,7 +9,6 @@ const Navbar = () => {
       <ul className="lista">
         <li>Caramelos</li>
         <li>Gomitas</li>
-        <li>Chupetines</li>
         <li>Bombones</li>
       </ul>
       <CartWidget />
