@@ -2,3 +2,8 @@
   margin: 0;
   padding: 0;
 }
+
+body{
+  background-image: url(../public/img/fondo-estrellas.png);
+  background-size: 350px;
+}

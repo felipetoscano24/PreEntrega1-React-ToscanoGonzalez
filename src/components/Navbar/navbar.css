@@ -3,7 +3,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 25vh;
+  height: 11vh;
+  background-color: white;
 }
 
 .lista {
@@ -11,26 +12,26 @@
   list-style: none;
   align-items: center;
   color: rgb(255, 208, 0);
-  font-size: 3.2vh;
-  font-family: "Bowlby One SC", sans-serif;
+  font-size: 2.3vh;
+  font-family: "Caprasimo", serif;
+  padding-right: 10vh;
+  text-decoration: none;
 }
 
-.lista li {
-  padding-right: 10vh;
-}
+
 
 .logo-navbar {
-  width: 22vw;
-  margin-left: 3vw;
+  width: 11vw;
+  margin-left: 2vw;
 }
 
-.cart {
-  height: 10vh;
+.carrito {
+  height: 5vh;
 }
 
 .numerito {
   color: rgb(255, 208, 0);
-  font-size: 4vh;
+  font-size: 2.7vh;
   font-weight: bolder;
-  margin-right: 3vw;
+  margin-right: 2vw;
 }

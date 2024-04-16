@@ -1,16 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap&family=Acme&family=Black+And+White+Picture&family=Bowlby+One+SC&family=Caprasimo&family=Francois+One&family=Nosifer&family=Rampart+One&family=Titan+One&display=swap");
+
 p {
   text-align: center;
-  font-size: 3vh;
-  padding-bottom: 4vh;
-  font-family: "Francois One", sans-serif;
-  font-weight: 200;
+  font-size: 2vh;
+  padding: 2vh;
+  font-family: "Acme", sans-serif;
+  color: rgb(237, 134, 158);
 }
-
-h2 {
-  color: rgb(255, 208, 0);
+h1 {
   text-align: center;
-  padding-bottom: 3vh;
-  font-family: "Francois One", sans-serif;
-  font-size: 5vh;
-  font-weight: 200;
+  margin: 2vw;
+  font-family: "Rampart One", sans-serif;
+  font-size: 5.5vh;
+  color: rgb(239, 160, 179);
+}
+h2 {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-family: "Rowdies", sans-serif;
+  font-weight: 300;
+  font-size: 2.5vh;
+  padding-top: 1.5vh;
+}
+h3 {
+  text-align: center;
+  font-family: "Caprasimo", serif;
+  font-weight: 300;
+  font-size: 3vh;
+}
+h4 {
+  text-align: center;
+  font-family: "Caprasimo", serif;
+  font-weight: 300;
+  font-size: 2.8vh;
+  margin: 20px;
+  color: rgb(237, 134, 158);
+}
+.item-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.tarjeta {
+  width: 15%;
+  margin: 1.5%;
+  padding: 4px;
+  border-radius: 15px;
+  border: 3.5px solid rgb(255, 212, 18);
+  background-color: white;
+}
+.imagen-tarjeta {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imagen-producto {
+  width: 70%;
 }

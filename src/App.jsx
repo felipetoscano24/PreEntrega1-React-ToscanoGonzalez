@@ -1,24 +1,48 @@
-import Main from "./components/Main/Main"
-import Navbar from "./components/Navbar/Navbar"
-import Footer from "./components/Footer/Footer"
-import ItemListContainer from "./components/ItemListContainer/ItemListContainer"
-import Banner from "./components/Banner/Banner"
+import Navbar from "./components/Navbar/Navbar";
+import Footer from "./components/Footer/Footer";
+import ItemListContainer from "./components/ItemListContainer/ItemListContainer";
+import ItemDetailContainer from "./components/ItemDetailContainer/ItemDetailContainer";
+import Banner from "./components/Banner/Banner";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import "./App.css";
 
 function App() {
   return (
-    <div>
+    <BrowserRouter>
       <Navbar />
       <Banner />
-      <Main />
-      <ItemListContainer
-        saludo="Bienvenidos al Mundo del Caramelo!"
-        pregunta="¿Qué dulce te tienta más?"
-      />
+
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <ItemListContainer
+              titulo="BIENVENIDO A CANDY KINGDOM"
+              saludo="Bienvenidos al Mundo del Dulce!"
+              pregunta="¿Qué dulce te tienta más"
+            />
+          }
+        />
+        <Route
+          path="/categoria/:idCategory"
+          element={
+            <ItemListContainer
+            pregunta="¿Cúal te tienta más? El "
+            />
+          }
+        />
+        <Route
+          path="/detail/:idProduct"
+          element={
+            <ItemDetailContainer
+            />
+          }
+        />
+      </Routes>
       <Footer />
-    </div>
+    </BrowserRouter>
   );
 }
 
-export default App
+export default App;

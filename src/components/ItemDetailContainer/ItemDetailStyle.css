@@ -1,0 +1,30 @@
+.detalle-tarjeta {
+  display: flex;
+  flex-direction: row;
+  width: 96%;
+  margin: 1.5%;
+  background-color: rgb(246, 246, 246);
+  border-radius: 15px;
+}
+
+.detalle-titulo {
+  text-align: left;
+  margin: 10vh 2vh 4vh;
+  color: rgb(255, 167, 187);
+}
+
+.detalle-stock {
+  text-align: left;
+  color: rgb(238, 195, 0);;
+}
+
+.detalle-categoria {
+  text-align: left;
+  color: rgb(255, 167, 187);
+}
+.detalle-imagen-producto {
+  width: 30%;
+  border: 3px solid rgba(214, 214, 214, 0.777);
+  border-radius: 15px;
+  margin: 4%;
+}
