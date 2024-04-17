@@ -2,8 +2,8 @@
 
 p {
   text-align: center;
-  font-size: 2vh;
-  padding: 2vh;
+  font-size: 2.3vh;
+  padding: 2vh 0vh 3vh;
   font-family: "Acme", sans-serif;
   color: rgb(237, 134, 158);
 }
@@ -44,17 +44,27 @@ h4 {
 .tarjeta {
   width: 15%;
   margin: 1.5%;
-  padding: 4px;
+  padding: 4px 3px 20px;
   border-radius: 15px;
   border: 3.5px solid rgb(255, 212, 18);
   background-color: white;
+  text-align: center;
 }
 .imagen-tarjeta {
   width: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 .imagen-producto {
   width: 70%;
+}
+.boton-detalle{
+  text-decoration: none;
+  background-color: rgb(245, 245, 245);
+  font-size: 2vh;
+  padding: 1vh;
+  font-family: "Acme", sans-serif;
+  border: 3px solid rgba(214, 214, 214, 0.777);
+  border-radius: 10px;
+  color: rgb(41, 41, 41);
 }

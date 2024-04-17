@@ -9,22 +9,35 @@
 
 .detalle-titulo {
   text-align: left;
-  margin: 10vh 2vh 4vh;
+  margin: 10vh 0 4vh;
   color: rgb(255, 167, 187);
 }
 
 .detalle-stock {
-  text-align: left;
+  text-align: start;
+  font-size: 3vh;
   color: rgb(238, 195, 0);;
 }
 
 .detalle-categoria {
-  text-align: left;
+  text-align: start;
+  font-size: 3vh;
+  padding-bottom: 6vh;
   color: rgb(255, 167, 187);
 }
 .detalle-imagen-producto {
-  width: 30%;
+  width: 27%;
   border: 3px solid rgba(214, 214, 214, 0.777);
   border-radius: 15px;
   margin: 4%;
+}
+.boton-volver{
+  text-decoration: none;
+  background-color: rgb(245, 245, 245);
+  font-size: 2.5vh;
+  padding: 1vh;
+  font-family: "Acme", sans-serif;
+  border: 3px solid rgba(214, 214, 214, 0.777);
+  border-radius: 10px;
+  color: rgb(41, 41, 41);
 }

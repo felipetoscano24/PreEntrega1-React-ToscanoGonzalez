@@ -12,7 +12,7 @@ const ItemDetail = ({ product }) => {
         <h1 className="detalle-titulo">{product.nombre}</h1>
         <p className="detalle-stock">Cantidas disponibles: {product.stock}</p>
         <p className="detalle-categoria">Categoría: {product.categoria}</p>
-        <Link to="/">Volver</Link>
+        <Link to="/" className="boton-volver">Volver</Link>
       </div>
     </div>
   );

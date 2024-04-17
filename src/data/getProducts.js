@@ -14,13 +14,6 @@ const productos = [
     categoria: "caramelo",
   },
   {
-    id: "flynn-paff-frutilla",
-    nombre: "Flynn Paff Frutilla",
-    stock: 6,
-    imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSeiRzfZ_GuD8d-L-t__2cEpWdY-VGmIUh78P2VutVyQaQhsTs25Yuex2zYShgVym_K8M&usqp=CAU",
-    categoria: "caramelo",
-  },
-  {
     id: "frutales",
     nombre: "Caramelos Frutales",
     stock: 9,
@@ -74,6 +67,13 @@ const productos = [
     nombre: "Caramelos de Miel",
     stock: 29,
     imagen: "https://cdn11.bigcommerce.com/s-b156nxvmdp/images/stencil/1280x1280/products/1335/1813/arcormiel__64141.1693944522.jpg?c=1",
+    categoria: "caramelo",
+  },
+  {
+    id: "flynn-paff-frutilla",
+    nombre: "Flynn Paff Frutilla",
+    stock: 6,
+    imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSeiRzfZ_GuD8d-L-t__2cEpWdY-VGmIUh78P2VutVyQaQhsTs25Yuex2zYShgVym_K8M&usqp=CAU",
     categoria: "caramelo",
   },
   {
