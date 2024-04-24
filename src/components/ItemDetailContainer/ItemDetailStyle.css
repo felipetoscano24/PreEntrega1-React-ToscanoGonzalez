@@ -3,7 +3,7 @@
   flex-direction: row;
   width: 96%;
   margin: 1.5%;
-  background-color: rgb(246, 246, 246);
+  background-color: rgba(239, 239, 239, 0.501);
   border-radius: 15px;
 }
 
@@ -15,15 +15,28 @@
 
 .detalle-stock {
   text-align: start;
-  font-size: 3vh;
+  font-size: 2.7vh;
   color: rgb(238, 195, 0);;
 }
 
 .detalle-categoria {
   text-align: start;
-  font-size: 3vh;
-  padding-bottom: 6vh;
-  color: rgb(255, 167, 187);
+  font-size: 2.7vh;
+  color: rgb(56, 56, 56);
+}
+h4 {
+  text-align: start;
+  font-family: "Acme", sans-serif;
+  font-weight: 550;
+  font-size: 2.8vh;
+  margin: 20px 0px;
+  color: rgb(237, 134, 158);
+}
+.detalle-descripcion {
+  text-align: start;
+  font-size: 2vh;
+  padding: 0vh 6vh 6vh 0vh;
+  color: rgb(56, 56, 56);
 }
 .detalle-imagen-producto {
   width: 27%;
@@ -34,10 +47,10 @@
 .boton-volver{
   text-decoration: none;
   background-color: rgb(245, 245, 245);
-  font-size: 2.5vh;
-  padding: 1vh;
+  font-size: 2vh;
+  padding: 0.5vh;
   font-family: "Acme", sans-serif;
-  border: 3px solid rgba(214, 214, 214, 0.777);
+  border: 2.5px solid rgb(255, 197, 225);;
   border-radius: 10px;
   color: rgb(41, 41, 41);
 }

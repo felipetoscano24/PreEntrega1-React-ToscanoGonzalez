@@ -1,8 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap&family=Acme&family=Black+And+White+Picture&family=Bowlby+One+SC&family=Caprasimo&family=Francois+One&family=Nosifer&family=Rampart+One&family=Titan+One&display=swap");
+/*
+font-family: "Caprasimo", serif;
+font-family: "Bowlby One SC", sans-serif;
+font-family: "Rampart One", sans-serif;
+font-family: "Titan One", sans-serif;
+font-family: "Nosifer", sans-serif;
+font-family: "Rowdies", sans-serif;
+font-family: "Acme", sans-serif;
+*/
 
 p {
   text-align: center;
-  font-size: 2.3vh;
+  font-size: 2.7vh;
   padding: 2vh 0vh 3vh;
   font-family: "Acme", sans-serif;
   color: rgb(237, 134, 158);
@@ -28,14 +37,6 @@ h3 {
   font-weight: 300;
   font-size: 3vh;
 }
-h4 {
-  text-align: center;
-  font-family: "Caprasimo", serif;
-  font-weight: 300;
-  font-size: 2.8vh;
-  margin: 20px;
-  color: rgb(237, 134, 158);
-}
 .item-list {
   display: flex;
   justify-content: center;
@@ -60,11 +61,11 @@ h4 {
 }
 .boton-detalle{
   text-decoration: none;
-  background-color: rgb(245, 245, 245);
+  background-color: rgba(255, 243, 249, 0.5);
   font-size: 2vh;
-  padding: 1vh;
+  padding: 0.5vh;
   font-family: "Acme", sans-serif;
-  border: 3px solid rgba(214, 214, 214, 0.777);
+  border: 2.5px solid rgb(255, 197, 225);;
   border-radius: 10px;
   color: rgb(41, 41, 41);
 }

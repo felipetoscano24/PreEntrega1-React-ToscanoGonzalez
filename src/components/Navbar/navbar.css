@@ -18,15 +18,17 @@
   text-decoration: none;
 }
 
-
-
 .logo-navbar {
   width: 11vw;
   margin-left: 2vw;
 }
 
-.carrito {
-  height: 5vh;
+.carrito{
+  text-decoration: none;
+}
+
+.carrito img{
+  height: 8vh;
 }
 
 .numerito {

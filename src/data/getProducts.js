@@ -5,6 +5,7 @@ const productos = [
     stock: 5,
     imagen: "  https://mayoristapatagonia.com/wp-content/uploads/2023/06/CARAMELO-SUGUS-X-700-G.-S-ESPECIAL.jpg",
     categoria: "caramelo",
+    precio: 200,
   },
   {
     id: "flynn-paff",
@@ -12,6 +13,7 @@ const productos = [
     stock: 20,
     imagen: "https://i0.wp.com/golmarymar.com.ar/wp-content/uploads/1543.jpg?fit=1000%2C1000&ssl=1",
     categoria: "caramelo",
+    precio: 300,
   },
   {
     id: "frutales",
@@ -19,6 +21,8 @@ const productos = [
     stock: 9,
     imagen: "https://clickandfoods.com/cdn/shop/products/caramelos-masticables-arcor-frutales-800g-clasico-de-cumples-D_Q_NP_984520-MLA42323212931_062020-F_1200x1200.jpg?v=1603782607",
     categoria: "caramelo",
+    descripcion:"¡Descubre la deliciosa explosión de sabor de los Caramelos Masticables Frutales Arcor! Estos caramelos, presentados en una práctica bolsa de 800 gramos, son la opción perfecta para satisfacer tus antojos dulces. Con su textura suave y masticable, cada caramelo te transportará a un mundo lleno de sabores frutales intensos y refrescantes. Disfruta de una amplia variedad de sabores, desde la dulzura de la frutilla hasta la acidez de la naranja. Además, su presentación en bolsa te permite llevarlos contigo a donde quieras, para disfrutar de un dulce momento en cualquier momento del día. ¡No te resistas a la tentación y prueba los Caramelos Masticables Frutales Arcor hoy mismo!",
+    precio: 400,
   },  
   {
     id: "palito",
@@ -26,6 +30,7 @@ const productos = [
     stock: 2,
     imagen: "https://ardiaprod.vtexassets.com/arquivos/ids/287619/Caramelo-Masticable-Palitos-de-la-Selva-150-Gr-_1.jpg?v=638383484843370000",
     categoria: "caramelo",
+    precio: 500,
   },
   {
     id: "pico-dulce",
@@ -33,6 +38,7 @@ const productos = [
     stock: 5,
     imagen: "https://i0.wp.com/davelcor.com.ar/wp-content/uploads/Caramelos-Duros-Pico-Dulce-x-150-gr.jpg?fit=1000%2C1000&ssl=1",
     categoria: "caramelo",
+    precio: 600,
   },
   {
     id: "media-hora",
@@ -40,6 +46,7 @@ const productos = [
     stock: 13,
     imagen: "https://masonlineprod.vtexassets.com/arquivos/ids/276041/Caramelos-Media-Hora-200u-2-34831.jpg?v=638149557734300000",
     categoria: "caramelo",
+    precio: 600,
   },
   {
     id: "butter-toffy-bonobon",
@@ -47,6 +54,7 @@ const productos = [
     stock: 16,
     imagen: "https://carrefourar.vtexassets.com/arquivos/ids/410621/7790580118853_02.jpg?v=638346392033700000",
     categoria: "caramelo",
+    precio: 700,
   },
   {
     id: "saquitos",
@@ -54,6 +62,7 @@ const productos = [
     stock: 19,
     imagen: "https://www.papelerapitti.com.ar/7045-large_default/caramelo-marengo-saquitos-frutales-454g.jpg",
     categoria: "caramelo",
+    precio: 800,
   },
   {
     id: "pequenos-placeres",
@@ -61,6 +70,7 @@ const productos = [
     stock: 3,
     imagen: "https://jumboargentina.vtexassets.com/arquivos/ids/775001/Caramelos-Georgalos-Duros-Relleno-Dulce-De-Leche-X450g-1-948401.jpg?v=638158630021500000",
     categoria: "caramelo",
+    precio: 900,
   },
   {
     id: "caramelo-miel",
@@ -68,6 +78,8 @@ const productos = [
     stock: 29,
     imagen: "https://cdn11.bigcommerce.com/s-b156nxvmdp/images/stencil/1280x1280/products/1335/1813/arcormiel__64141.1693944522.jpg?c=1",
     categoria: "caramelo",
+    descripcion: "¡Descubre la dulzura de los Caramelos Rellenos Miel de Arcor! Estos deliciosos caramelos te transportarán a un mundo de sabores irresistibles. Con un peso de 140 gramos, podrás disfrutar de su exquisito relleno de miel en cada bocado. Perfectos para satisfacer tus antojos dulces en cualquier momento del día. ¡No esperes más y déjate seducir por la dulzura de los Caramelos Rellenos Miel de Arcor! Un placer irresistible que no podrás resistir. Producto SIN TACC",
+    precio: 1000,
   },
   {
     id: "flynn-paff-frutilla",
@@ -75,41 +87,52 @@ const productos = [
     stock: 6,
     imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSeiRzfZ_GuD8d-L-t__2cEpWdY-VGmIUh78P2VutVyQaQhsTs25Yuex2zYShgVym_K8M&usqp=CAU",
     categoria: "caramelo",
+    precio: 1200,
   },
   {
     id: "pops",
     nombre: "Pops",
     stock: 1,
-    imagen: "https://www.papelerapitti.com.ar/2977-home_default/mister-pop-frutal-x50u.jpg",
+    imagen: "https://arcorencasa.com/wp-content/uploads/2023/03/20230315-2528.jpg",
     categoria: "chupetin",
+    descripcion:"¡Descubre el delicioso Chupetín Mister Pops Frutal, la golosina perfecta para endulzar tus momentos más divertidos! Con su irresistible sabor a frutas frescas, este chupetín te transportará a un paraíso de sabores exquisitos. Cada bolsa contiene 50 unidades de pura felicidad, con un peso total de 625g, para que puedas disfrutarlo durante mucho tiempo. Además, este chupetín es apto para celíacos, por lo que todos podrán deleitarse con su dulzura sin preocupaciones. ¡No esperes más y añade este tentador chupetín a tu carrito de compras!",
+    precio: 1300,
   },
   {
     id: "butter-toffy",
     nombre: "Butter Toffy Surtido",
     stock: 13,
-    imagen: "https://jumboargentina.vtexassets.com/arquivos/ids/695264/Caramelos-Butter-Toffees-Surtido-140g-1-875000.jpg?v=637848453713130000",
+    imagen: "https://arcorencasa.com/wp-content/uploads/2023/08/20230824-13420.jpg",
     categoria: "caramelo",
+    descripcion: "¡Descubre el delicioso sabor de los Butter Toffees Surtido! Este irresistible paquete de 140 gramos te ofrece una variedad de caramelos que te harán disfrutar de momentos dulces y placenteros. Cada bocado es una explosión de sabor suave y cremoso que te transportará a un mundo de dulzura. Perfectos para compartir con amigos y familiares o simplemente para darte un capricho. Los Butter Toffees Surtido son ideales para satisfacer tus antojos de dulce en cualquier momento del día. ¡No te resistas a su tentación y añádelos a tu carrito de compras ahora mismo!",
+    precio: 1400,
   },
   {
-    id: "butter-toffy-blanco",
-    nombre: "Butter Toffy Surtido",
+    id: "butter-toffy-leche",
+    nombre: "Butter Toffy leche",
     stock: 11,
-    imagen: "https://acdn.mitiendanube.com/stores/602/902/products/butter-leche1-4988697d1bdab02e1915735970373221-1024-1024.jpg",
+    imagen: "https://arcorencasa.com/wp-content/uploads/2023/08/20230824-13418.jpg",
     categoria: "caramelo",
+    descripcion: "¡Descubre el delicioso sabor de los Butter Toffees Leche! Con un peso de 140 gramos, podrás disfrutar de estos caramelos en cualquier momento y lugar. Su textura suave y cremosa te cautivará desde el primer bocado. Los Butter Toffees Leche son ideales para darte un capricho o para compartir con tus seres queridos. ¡No podrás resistirte a su irresistible sabor! Añádelos a tu carrito y disfruta de un dulce placer que te hará volver por más.",
+    precio: 1500,
   },
   {
     id: "butter-toffy-chocolate",
     nombre: "Butter Toffy Chocolate",
     stock: 18,
-    imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoWiZ6SqxaGq6KnHqnpqUYp8bU14Aod8N1GHP74fCbJQ&s",
+    imagen: "https://arcorencasa.com/wp-content/uploads/2023/08/20230824-13419.jpg",
     categoria: "caramelo",
+    descripcion: "¡Descubre el delicioso sabor de los Butter Toffees Chocolate! Cada paquete contiene 140 gramos de estos dulces tentadores, ideales para disfrutar en cualquier momento del día. Los Butter Toffees Chocolate son el impulso de energía que necesitas para satisfacer tus antojos más dulces. Su textura suave y cremosa te hará desear más con cada bocado. ¡No te resistas a la tentación y añade estos caramelos a tu carrito de compras ahora mismo!",
+    precio: 1600,
   },
   {
     id: "pops-extreme-duo",
     nombre: "Pops Extreme Duo",
     stock: 8,
-    imagen: "https://acdn.mitiendanube.com/stores/001/132/452/products/extreme-tienda1-0017ec82ecc4d3e7e016276551581155-1024-1024.jpg",
+    imagen: "https://arcorencasa.com/wp-content/uploads/2023/03/20230315-12385.jpg",
     categoria: "chupetin",
+    descripcion: "¡Descubre el delicioso y emocionante Chupetín Mister Pops Evolution Extreme! Este increíble chupetín viene en una bolsa de 24 unidades, con un peso total de 432g, para que puedas disfrutar de su sabor único y adictivo durante mucho tiempo. Con su irresistible combinación de sabores y colores vibrantes, este chupetín es perfecto para satisfacer tus antojos de golosinas. Además, es apto para celíacos, por lo que todos pueden disfrutar de su delicioso sabor sin preocupaciones.",
+    precio: 1700,
   },
   {
     id: "sugus-fruti-pops",
@@ -117,6 +140,7 @@ const productos = [
     stock: 16,
     imagen: "https://jumboargentina.vtexassets.com/arquivos/ids/793581/Chupetines-Sugus-Fruti-Pops-X16g-1-995096.jpg?v=638303242109970000",
     categoria: "chupetin",
+    precio: 1800,
   },
   {
     id: "pops-trompito",
@@ -124,6 +148,8 @@ const productos = [
     stock: 8,
     imagen: "https://d3340tyzmtlo4u.cloudfront.net/users/864/images/detailed/14/Mister_Pops_Trompito_Twister_Chupetines_Sabor_a_Tutti_Frutti,_11_g__50_Chupetines_.jpeg",
     categoria: "chupetin",
+    descripcion: "¡Descubre el delicioso Chupetín Mister Pops Trompito, la golosina perfecta para endulzar tus momentos más divertidos! Este chupetín frutal, presentado en una práctica bolsa de 550g, te ofrece 50 unidades de pura diversión y sabor. Con su irresistible combinación de sabores frutales, cada mordisco te transportará a un mundo lleno de alegría y dulzura. Además, este chupetín es apto para celíacos, por lo que todos podrán disfrutarlo sin preocupaciones.",
+    precio: 1900,
   },
   {
     id: "palito-selva-chupetin",
@@ -131,6 +157,7 @@ const productos = [
     stock: 2,
     imagen: "https://acdn.mitiendanube.com/stores/093/780/products/16-c3b26d217755789ac416966250513956-1024-1024.jpg",
     categoria: "chupetin",
+    precio: 2000,
   },
   {
     id: "baby-doll",
@@ -138,13 +165,16 @@ const productos = [
     stock: 5,
     imagen: "https://acdn.mitiendanube.com/stores/001/132/452/products/sem-titulo-10-201-428c0f2a9931b1e91815901854017351-1024-1024.png",
     categoria: "chupetin",
+    precio: 2100,
   },
   {
     id: "pops-evolution",
     nombre: "Pops Evolution",
     stock: 7,
-    imagen: "https://acdn.mitiendanube.com/stores/313/507/products/mr-bl-e0eef6e1e4e70934a917062991196970-240-0.jpg",
+    imagen: "https://arcorencasa.com/wp-content/uploads/2023/03/20230315-11803.jpg",
     categoria: "chupetin",
+    descripcion:"¡Descubre el delicioso Chupetín Mister Pops Evolution Cherry! Este dulce tentador te transportará a un mundo lleno de sabor y diversión. Cada bolsa contiene 24 unidades de chupetines, con un peso total de 432g, para que puedas disfrutarlos en cualquier momento y compartir con tus amigos y familiares. Este chupetín es perfecto para los amantes de las golosinas, ya que pertenece a la categoría de Chupetines.",
+    precio: 2200,
   },
   
   {
@@ -153,6 +183,7 @@ const productos = [
     stock: 29,
     imagen: "https://acdn.mitiendanube.com/stores/861/458/products/3206881-67027df3db1ed0604216341297088551-1024-1024.jpg",
     categoria: "bombon",
+    precio: 2300,
   },
   {
     id: "milka-oreo",
@@ -160,6 +191,7 @@ const productos = [
     stock: 9,
     imagen: "https://masonlineprod.vtexassets.com/arquivos/ids/276000/Bombones-Milka-Oreo-247g-2-19077.jpg?v=638149449680300000",
     categoria: "bombon",
+    precio: 2400,
   },
   {
     id: "surtido-especial",
@@ -167,6 +199,7 @@ const productos = [
     stock: 27,
     imagen: "https://hiperlibertad.vtexassets.com/arquivos/ids/218861/BOMBONES-ARCOR-SURTIDO-ESPECIAL-X-223-GR-1-37332.jpg?v=638431221825270000",
     categoria: "bombon",
+    precio: 2500,
   },
   {
     id: "lindt-leche",
@@ -174,34 +207,38 @@ const productos = [
     stock: 21,
     imagen: "https://acdn.mitiendanube.com/stores/001/552/154/products/bombones-chocolate-con-leche-lindt-lindor-200gr1-b31c68f636568e971916353744421832-1024-1024.jpg",
     categoria: "bombon",
+    precio: 2600,
   },
   {    
-  id: "lindt-surtido",
-  nombre: "Lindt Surtido",
-  stock: 1,
-  imagen: "https://media.justo.mx/products/20775_Chocolate_Surtidos_Lindt_Lindor_con_Relleno_Suave_120g_2.1.jpg",
-  categoria: "bombon",
-},
-{
-  id: "caja-roja",
-  nombre: "Caja Roja",
-  stock: 21,
-  imagen: "https://florescoclico.com/wp-content/uploads/2021/04/caja-bombones-2.jpg",
-  categoria: "bombon",
-},
-{    
-id: "tofi",
-nombre: "Tofi",
-stock: 23,
-imagen: "https://acdn.mitiendanube.com/stores/001/132/452/products/sem-titulo-2020-05-14t102432-3761-ca5980b0d03babd28415894654703591-1024-1024.jpg",
-categoria: "bombon",
-},
+    id: "lindt-surtido",
+    nombre: "Lindt Surtido",
+    stock: 1,
+    imagen: "https://media.justo.mx/products/20775_Chocolate_Surtidos_Lindt_Lindor_con_Relleno_Suave_120g_2.1.jpg",
+    categoria: "bombon",
+    precio: 2700,
+  },
+  {
+    id: "caja-roja",
+    nombre: "Caja Roja",
+    stock: 21,
+    imagen: "https://florescoclico.com/wp-content/uploads/2021/04/caja-bombones-2.jpg",
+    categoria: "bombon",
+    precio: 2800,
+  },
+  {    
+    id: "tofi",
+    nombre: "Tofi",
+    stock: 23,
+    imagen: "https://acdn.mitiendanube.com/stores/001/132/452/products/sem-titulo-2020-05-14t102432-3761-ca5980b0d03babd28415894654703591-1024-1024.jpg",
+    categoria: "bombon",
+    precio: 2900,
+  },
 ];
 
 const getProducts = new Promise((resolve, reject) => {
   setTimeout(() => {
     resolve(productos);
-  }, 3000);
+  }, 1000);
 });
 
 export default getProducts

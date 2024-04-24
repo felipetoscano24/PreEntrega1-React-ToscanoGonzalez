@@ -31,7 +31,7 @@ const ItemListContainer = ({ saludo, pregunta, titulo}) => {
     <div>
       <h1>{titulo}</h1>
       <h3>{saludo}</h3>
-      <h4>{pregunta}{idCategory}?</h4>
+      <p>{pregunta}{idCategory}?</p>
       {
         cargando ? pantallaDeCarga: <ItemList products={products} />
       }
