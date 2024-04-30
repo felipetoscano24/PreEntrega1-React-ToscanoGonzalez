@@ -1,9 +1,10 @@
 import "./list-container.css";
 import ItemList from "./ItemList";
-import getProducts from "../../data/getProducts";
 import useCargando from "../../hooks/useCargando";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
+import { collection, getDocs, query, where } from "firebase/firestore";
+import db from "../../db/db";
 
 const ItemListContainer = ({ saludo, pregunta, titulo}) => {
   const [products, setProducts] = useState([]);
@@ -11,20 +12,37 @@ const ItemListContainer = ({ saludo, pregunta, titulo}) => {
 
   const {idCategory} = useParams()
 
-  useEffect(() => {
-  mostrarCargando()
 
-    getProducts
-      .then((respuesta) => {
-        if(idCategory){
-          const newProducts =respuesta.filter((producto) => producto.categoria === idCategory)
-          setProducts(newProducts)
-        }else{
-          setProducts(respuesta)
-        }
-      })
-      .catch((error) => console.log(error))
-      .finally(() => ocultarCargando());
+  const getProducts = async() => {
+    const dataDb = await getDocs(collection(db, "products"));
+
+    const data = dataDb.docs.map( (productDb) => {
+      return { id: productDb.id, ...productDb.data() }
+    })
+
+    setProducts(data)
+  }
+
+  const getProductsByCategory = async() => {
+    const q = query(collection(db, "products"), where("categoria", "==", idCategory));
+
+    const dataDb = await getDocs(q);
+
+    const data = dataDb.docs.map( (productDb) => {
+      return { id: productDb.id, ...productDb.data() }
+    })
+
+    setProducts(data)
+  }
+
+
+  useEffect(() => {
+
+    if(idCategory){
+      getProductsByCategory()
+    }else{
+      getProducts()
+    }
   }, [idCategory]);
 
   return (

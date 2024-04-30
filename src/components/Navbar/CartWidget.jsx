@@ -9,7 +9,7 @@ const CartWidget = () => {
   return (
     <Link to="/cart" className="carrito">
       <img src="/img/carrito.png" />
-      <span className="numerito">{totalQuantity()}</span>
+      <span className="numerito">{ totalQuantity() === 0 ? "" : totalQuantity() }</span>
     </Link>
   );
 };
