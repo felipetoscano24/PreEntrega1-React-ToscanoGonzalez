@@ -69,3 +69,11 @@ h3 {
   border-radius: 10px;
   color: rgb(41, 41, 41);
 }
+
+.cargando{
+  text-align: center;
+  font-family: "Acme", sans-serif;
+  font-size: 3.5vh;
+  margin: 15vh;
+  color: rgb(255, 208, 0);
+}

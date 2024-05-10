@@ -1,7 +1,32 @@
 .cantidad-productos{
     display: flex;
+    align-items: center;
 }
 
-.carrito-añadir{
-    display: flex;
+.cantidad-productos p{
+    padding: 0;
+    margin: 0 15px;
+
 }
+
+.boton-agregar{
+    height: 5vh;
+    border: 2px solid rgb(197, 197, 197);
+    border-radius: 15px;
+    background-color: white;
+    color: rgb(245, 196, 0);
+    padding: 0px 25px;
+    margin: 20px 0;
+    font-size: 2vh;
+    font-family: "Acme", sans-serif;
+}
+
+.boton-contar{
+    height: 25px;
+    border: 2px solid rgb(198, 198, 198);
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    font-weight: bold;
+  }

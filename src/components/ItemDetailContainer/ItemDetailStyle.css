@@ -16,7 +16,7 @@
 .detalle-stock {
   text-align: start;
   font-size: 2.7vh;
-  color: rgb(238, 195, 0);;
+  color: rgb(238, 195, 0);
 }
 
 .detalle-categoria {
@@ -46,11 +46,29 @@ h4 {
 }
 .boton-volver{
   text-decoration: none;
-  background-color: rgb(245, 245, 245);
-  font-size: 2vh;
+  height: 2vh;
+  text-align: center;
+  margin-right: 6vh;
+  background-color: rgb(255, 255, 255);
+  font-size: 1.8vh;
   padding: 0.5vh;
   font-family: "Acme", sans-serif;
-  border: 2.5px solid rgb(255, 197, 225);;
+  border: 2.5px solid rgb(255, 197, 225);
   border-radius: 10px;
   color: rgb(41, 41, 41);
+}
+
+.button-go-cart{
+  width: 150px;
+  border-radius: 5px;
+  background-color: rgb(41, 41, 41);
+  color: white;
+  padding: 20px 30px;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.separar{
+  display: flex;
+  justify-content: space-between;
 }

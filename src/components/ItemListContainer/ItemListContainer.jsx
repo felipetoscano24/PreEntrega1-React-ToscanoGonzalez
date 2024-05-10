@@ -1,26 +1,34 @@
-import "./list-container.css";
-import ItemList from "./ItemList";
-import useCargando from "../../hooks/useCargando";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import { collection, getDocs, query, where } from "firebase/firestore";
+import ItemList from "./ItemList";
+import Error from "../Error/Error";
 import db from "../../db/db";
+import { collection, getDocs, query, where } from "firebase/firestore";
+
+import "./list-container.css";
 
 const ItemListContainer = ({ saludo, pregunta, titulo}) => {
   const [products, setProducts] = useState([]);
-  const { cargando, mostrarCargando, ocultarCargando, pantallaDeCarga } = useCargando()
+  const [cargando, setCargando] = useState(true);
 
   const {idCategory} = useParams()
 
 
   const getProducts = async() => {
-    const dataDb = await getDocs(collection(db, "products"));
+    try {
+      const dataDb = await getDocs(collection(db, "products"));
 
-    const data = dataDb.docs.map( (productDb) => {
-      return { id: productDb.id, ...productDb.data() }
-    })
+      const data = dataDb.docs.map( (productDb) => {
+        return { id: productDb.id, ...productDb.data() }
+      });
 
-    setProducts(data)
+    setProducts(data);
+    setCargando(false)
+
+    } catch(error) {
+      return <Error/>
+    }
+
   }
 
   const getProductsByCategory = async() => {
@@ -32,7 +40,8 @@ const ItemListContainer = ({ saludo, pregunta, titulo}) => {
       return { id: productDb.id, ...productDb.data() }
     })
 
-    setProducts(data)
+    setProducts(data);
+    setCargando(false)
   }
 
 
@@ -50,9 +59,11 @@ const ItemListContainer = ({ saludo, pregunta, titulo}) => {
       <h1>{titulo}</h1>
       <h3>{saludo}</h3>
       <p>{pregunta}{idCategory}?</p>
-      {
-        cargando ? pantallaDeCarga: <ItemList products={products} />
-      }
+      {cargando ? (
+        <div className="cargando">Cargando...</div>
+      ) : (
+        <ItemList products={products} />
+      )}
     </div>
   );
 };

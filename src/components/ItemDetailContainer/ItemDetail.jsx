@@ -1,13 +1,11 @@
-import { Link } from "react-router-dom";
 import { useContext } from "react";
+import { Link } from "react-router-dom";
 import { CartContext } from "../../context/CartContext";
 import ItemCount from "../ItemCount/ItemCount";
 
 const ItemDetail = ({ product }) => {
 
-  const { cart, addToCart }= useContext(CartContext)
-
-  console.log(cart)
+  const { addToCart }= useContext(CartContext)
 
   const handleAddToCart = (count) => {
     const productCart = { ...product, quantity: count }
@@ -27,8 +25,10 @@ const ItemDetail = ({ product }) => {
         <p className="detalle-categoria">Categoría: {product.categoria}</p>
         <h4>DESCRIPCIÓN</h4>
         <p className="detalle-descripcion">{product.descripcion}</p>
-        <Link to="/" className="boton-volver">Volver</Link>
-        <ItemCount handleAddToCart={handleAddToCart} stock={product.stock} />
+        <div className="separar">
+          <ItemCount handleAddToCart={handleAddToCart} stock={product.stock} />
+          <Link to="/" className="boton-volver">Volver</Link>
+        </div>
       </div>
     </div>
   );
